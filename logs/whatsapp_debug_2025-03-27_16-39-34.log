@@ -1,0 +1,66 @@
+Diagnóstico de WhatsApp
+Técnico: Santiago Habib (ID: 7)
+Teléfono: +5491126317946
+Tipo de mensaje: welcome
+Resultado: ÉXITO
+
+<h4>Enviando mensaje de bienvenida</h4>[2025-03-27 16:39:33] INFO: Formateando número de teléfono: '+5491126317946'<br>[2025-03-27 16:39:33] INFO: Después de eliminar caracteres no numéricos: '+5491126317946'<br>[2025-03-27 16:39:33] INFO: Después de eliminar + inicial: '5491126317946'<br>[2025-03-27 16:39:33] INFO: Número final formateado: '5491126317946'<br>[2025-03-27 16:39:33] INFO: Enviando mensaje de bienvenida a técnico: Santiago Habib (ID: 7) - Teléfono formateado: 5491126317946<br>[2025-03-27 16:39:33] INFO: Datos de la solicitud: {
+    "messaging_product": "whatsapp",
+    "recipient_type": "individual",
+    "to": "5491126317946",
+    "type": "text",
+    "text": {
+        "body": "\u00a1Hola Santiago Habib! Bienvenido\/a al sistema de gesti\u00f3n de tickets. \ud83d\udc4b\n\nEste es el n\u00famero oficial para notificaciones de tickets. Por favor, *responde a este mensaje* con un OK para activar las notificaciones.\n\nRecibir\u00e1s alertas en este n\u00famero cuando se te asigne un nuevo ticket. \ud83d\udd14\n\nGracias por tu colaboraci\u00f3n."
+    }
+}<br>[2025-03-27 16:39:33] INFO: URL de la API: https://graph.facebook.com/v17.0/345032388695817/messages<br>[2025-03-27 16:39:34] INFO: Información detallada de cURL:
+*   Trying [2a03:2880:f010:17:face:b00c:0:2]:443...
+* Connected to graph.facebook.com (2a03:2880:f010:17:face:b00c:0:2) port 443
+* ALPN: curl offers h2,http/1.1
+* SSL connection using TLSv1.3 / TLS_CHACHA20_POLY1305_SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: C=US; ST=California; L=Menlo Park; O=Meta Platforms, Inc.; CN=*.facebook.com
+*  start date: Jan  3 00:00:00 2025 GMT
+*  expire date: Apr  3 23:59:59 2025 GMT
+*  subjectAltName: host "graph.facebook.com" matched cert's "*.facebook.com"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA
+*  SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://graph.facebook.com/v17.0/345032388695817/messages
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: graph.facebook.com]
+* [HTTP/2] [1] [:path: /v17.0/345032388695817/messages]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [authorization: Bearer EAAajWSmtP1UBO0oyVHgwg2SHB2kgrBwLNn2Hxke5HZA4ZCocqFLvSeZA1FaYilrcS1vGdQa594z6TOhrcS4lUnB8QL2fy68pAWvAu8r4JhxzZBoiTKIACCHwpplRzjnvHO2RAU4uKoP2WKUvSVRqs6dctkipqUNhqXZBs2l8P2iHTZCcTv9kS2owsqyp2IGiskoQZDZD]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 487]
+> POST /v17.0/345032388695817/messages HTTP/2
+Host: graph.facebook.com
+Accept: */*
+Authorization: Bearer EAAajWSmtP1UBO0oyVHgwg2SHB2kgrBwLNn2Hxke5HZA4ZCocqFLvSeZA1FaYilrcS1vGdQa594z6TOhrcS4lUnB8QL2fy68pAWvAu8r4JhxzZBoiTKIACCHwpplRzjnvHO2RAU4uKoP2WKUvSVRqs6dctkipqUNhqXZBs2l8P2iHTZCcTv9kS2owsqyp2IGiskoQZDZD
+Content-Type: application/json
+Content-Length: 487
+
+< HTTP/2 200 
+< content-type: application/json; charset=UTF-8
+< vary: Origin
+< x-ad-api-version-warning: The call has been auto-upgraded to v20.0 as v17.0 has been deprecated.
+< x-business-use-case-usage: {"247414851788542":[{"type":"whatsapp","call_count":1,"total_cputime":1,"total_time":1,"estimated_time_to_regain_access":0}]}
+< access-control-allow-origin: *
+< facebook-api-version: v20.0
+< strict-transport-security: max-age=15552000; preload
+< pragma: no-cache
+< cache-control: private, no-cache, no-store, must-revalidate
+< expires: Sat, 01 Jan 2000 00:00:00 GMT
+< x-fb-request-id: AB1zv990wovc_yxFts9-Gxe
+< x-fb-trace-id: CzEaWMVO1KG
+< x-fb-rev: 1021320592
+< x-fb-debug: x94e70f5MRYKQzn7F8eeRUmRvXp3pbfL6l5QtYpEv/7ZD/tqvDHWejdoOk2moGHQiNoQigxLjobpQz4NGjRHRw==
+< content-length: 180
+< date: Thu, 27 Mar 2025 19:39:32 GMT
+< x-fb-connection-quality: EXCELLENT; q=0.9, rtt=11, rtx=0, c=10, mss=1392, tbw=3615, tp=-1, tpl=-1, uplat=706, ullat=0
+< alt-svc: h3=":443"; ma=86400
+< 
+* Connection #0 to host graph.facebook.com left intact
+<br>[2025-03-27 16:39:34] INFO: Mensaje de bienvenida enviado correctamente a: 5491126317946<br>[2025-03-27 16:39:34] INFO: Respuesta: {"messaging_product":"whatsapp","contacts":[{"input":"5491126317946","wa_id":"5491126317946"}],"messages":[{"id":"wamid.HBgNNTQ5MTEyNjMxNzk0NhUCABEYEkM0QzQ1RDRFODQxNUQxQUEyOAA="}]}<br>

@@ -1,0 +1,57 @@
+Diagnóstico de WhatsApp
+Técnico: Michel (ID: 8)
+Teléfono: +5491140623597
+Tipo de mensaje: test
+Resultado: ÉXITO
+
+<h4>Enviando mensaje de prueba</h4>Teléfono formateado: 5491140623597<br>URL: https://graph.facebook.com/v17.0/345032388695817/messages<br><h5>Información detallada de cURL:</h5><pre>*   Trying [2a03:2880:f010:17:face:b00c:0:2]:443...
+* Connected to graph.facebook.com (2a03:2880:f010:17:face:b00c:0:2) port 443
+* ALPN: curl offers h2,http/1.1
+* SSL connection using TLSv1.3 / TLS_CHACHA20_POLY1305_SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: C=US; ST=California; L=Menlo Park; O=Meta Platforms, Inc.; CN=*.facebook.com
+*  start date: Jan  3 00:00:00 2025 GMT
+*  expire date: Apr  3 23:59:59 2025 GMT
+*  subjectAltName: host &quot;graph.facebook.com&quot; matched cert&#039;s &quot;*.facebook.com&quot;
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA
+*  SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://graph.facebook.com/v17.0/345032388695817/messages
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: graph.facebook.com]
+* [HTTP/2] [1] [:path: /v17.0/345032388695817/messages]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [authorization: Bearer EAAajWSmtP1UBO0oyVHgwg2SHB2kgrBwLNn2Hxke5HZA4ZCocqFLvSeZA1FaYilrcS1vGdQa594z6TOhrcS4lUnB8QL2fy68pAWvAu8r4JhxzZBoiTKIACCHwpplRzjnvHO2RAU4uKoP2WKUvSVRqs6dctkipqUNhqXZBs2l8P2iHTZCcTv9kS2owsqyp2IGiskoQZDZD]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 213]
+&gt; POST /v17.0/345032388695817/messages HTTP/2
+Host: graph.facebook.com
+Accept: */*
+Authorization: Bearer EAAajWSmtP1UBO0oyVHgwg2SHB2kgrBwLNn2Hxke5HZA4ZCocqFLvSeZA1FaYilrcS1vGdQa594z6TOhrcS4lUnB8QL2fy68pAWvAu8r4JhxzZBoiTKIACCHwpplRzjnvHO2RAU4uKoP2WKUvSVRqs6dctkipqUNhqXZBs2l8P2iHTZCcTv9kS2owsqyp2IGiskoQZDZD
+Content-Type: application/json
+Content-Length: 213
+
+&lt; HTTP/2 200 
+&lt; content-type: application/json; charset=UTF-8
+&lt; vary: Origin
+&lt; x-ad-api-version-warning: The call has been auto-upgraded to v20.0 as v17.0 has been deprecated.
+&lt; x-business-use-case-usage: {&quot;247414851788542&quot;:[{&quot;type&quot;:&quot;whatsapp&quot;,&quot;call_count&quot;:1,&quot;total_cputime&quot;:1,&quot;total_time&quot;:1,&quot;estimated_time_to_regain_access&quot;:0}]}
+&lt; access-control-allow-origin: *
+&lt; facebook-api-version: v20.0
+&lt; strict-transport-security: max-age=15552000; preload
+&lt; pragma: no-cache
+&lt; cache-control: private, no-cache, no-store, must-revalidate
+&lt; expires: Sat, 01 Jan 2000 00:00:00 GMT
+&lt; x-fb-request-id: AdWYAAkaEkfOCzY0KIHs39J
+&lt; x-fb-trace-id: H1Jr5xky2uh
+&lt; x-fb-rev: 1021320592
+&lt; x-fb-debug: clpdD8hmHfCMAHI88rwmUqOgu7s0latS9rsP2BCHDVqCkGFaqGTpwPR1+utvGDA+iXsH2TzLm4vtZOQKI7yOgA==
+&lt; content-length: 180
+&lt; date: Thu, 27 Mar 2025 19:33:36 GMT
+&lt; x-fb-connection-quality: EXCELLENT; q=0.9, rtt=5, rtx=0, c=10, mss=1392, tbw=3593, tp=-1, tpl=-1, uplat=568, ullat=0
+&lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+&lt; 
+* Connection #0 to host graph.facebook.com left intact
+</pre><h5>Respuesta HTTP 200:</h5><pre>{&quot;messaging_product&quot;:&quot;whatsapp&quot;,&quot;contacts&quot;:[{&quot;input&quot;:&quot;5491140623597&quot;,&quot;wa_id&quot;:&quot;5491140623597&quot;}],&quot;messages&quot;:[{&quot;id&quot;:&quot;wamid.HBgNNTQ5MTE0MDYyMzU5NxUCABEYEjQ1QzBEQkIxMDMwNzFGRTg4QgA=&quot;}]}</pre>

@@ -1,0 +1,126 @@
+[2025-03-27 16:49:58] Iniciando prueba de envío de mensaje WhatsApp
+[2025-03-27 16:49:58] Cargando configuración...
+[2025-03-27 16:49:58] Configuración cargada
+[2025-03-27 16:49:58] Datos de configuración:
+[2025-03-27 16:49:58] - API URL: https://graph.facebook.com/v17.0/
+[2025-03-27 16:49:58] - Phone Number ID: 345032388695817
+[2025-03-27 16:49:58] - Business Account ID: 247414851788542
+[2025-03-27 16:49:58] - Número destino: 5491151109844
+[2025-03-27 16:49:58] URL de la API: https://graph.facebook.com/v17.0/345032388695817/messages
+[2025-03-27 16:49:58] Cabeceras configuradas
+[2025-03-27 16:49:58] Mensaje a enviar: 🔔 Este es un mensaje de prueba desde la API de WhatsApp Business. Hora: 2025-03-27 16:49:58
+[2025-03-27 16:49:58] Datos del mensaje (JSON): {
+    "messaging_product": "whatsapp",
+    "recipient_type": "individual",
+    "to": "5491151109844",
+    "type": "text",
+    "text": {
+        "body": "\ud83d\udd14 Este es un mensaje de prueba desde la API de WhatsApp Business. Hora: 2025-03-27 16:49:58"
+    }
+}
+[2025-03-27 16:49:58] Iniciando solicitud cURL...
+[2025-03-27 16:49:58] Enviando solicitud...
+[2025-03-27 16:49:59] Código de respuesta HTTP: 200
+[2025-03-27 16:49:59] Respuesta completa: {"messaging_product":"whatsapp","contacts":[{"input":"5491151109844","wa_id":"5491151109844"}],"messages":[{"id":"wamid.HBgNNTQ5MTE1MTEwOTg0NBUCABEYEkQ3OTZCNkNGRTA2OEM3QzFCMgA="}]}
+[2025-03-27 16:49:59] Respuesta decodificada: {
+    "messaging_product": "whatsapp",
+    "contacts": [
+        {
+            "input": "5491151109844",
+            "wa_id": "5491151109844"
+        }
+    ],
+    "messages": [
+        {
+            "id": "wamid.HBgNNTQ5MTE1MTEwOTg0NBUCABEYEkQ3OTZCNkNGRTA2OEM3QzFCMgA="
+        }
+    ]
+}
+[2025-03-27 16:49:59] Log detallado de cURL: *   Trying [2a03:2880:f010:17:face:b00c:0:2]:443...
+* Connected to graph.facebook.com (2a03:2880:f010:17:face:b00c:0:2) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.3 / TLS_CHACHA20_POLY1305_SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: C=US; ST=California; L=Menlo Park; O=Meta Platforms, Inc.; CN=*.facebook.com
+*  start date: Jan  3 00:00:00 2025 GMT
+*  expire date: Apr  3 23:59:59 2025 GMT
+*  subjectAltName: host "graph.facebook.com" matched cert's "*.facebook.com"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA
+*  SSL certificate verify ok.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://graph.facebook.com/v17.0/345032388695817/messages
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: graph.facebook.com]
+* [HTTP/2] [1] [:path: /v17.0/345032388695817/messages]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [authorization: Bearer EAAajWSmtP1UBO0oyVHgwg2SHB2kgrBwLNn2Hxke5HZA4ZCocqFLvSeZA1FaYilrcS1vGdQa594z6TOhrcS4lUnB8QL2fy68pAWvAu8r4JhxzZBoiTKIACCHwpplRzjnvHO2RAU4uKoP2WKUvSVRqs6dctkipqUNhqXZBs2l8P2iHTZCcTv9kS2owsqyp2IGiskoQZDZD]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 218]
+> POST /v17.0/345032388695817/messages HTTP/2
+Host: graph.facebook.com
+Accept: */*
+Authorization: Bearer EAAajWSmtP1UBO0oyVHgwg2SHB2kgrBwLNn2Hxke5HZA4ZCocqFLvSeZA1FaYilrcS1vGdQa594z6TOhrcS4lUnB8QL2fy68pAWvAu8r4JhxzZBoiTKIACCHwpplRzjnvHO2RAU4uKoP2WKUvSVRqs6dctkipqUNhqXZBs2l8P2iHTZCcTv9kS2owsqyp2IGiskoQZDZD
+Content-Type: application/json
+Content-Length: 218
+
+< HTTP/2 200 
+< content-type: application/json; charset=UTF-8
+< vary: Origin
+< x-ad-api-version-warning: The call has been auto-upgraded to v20.0 as v17.0 has been deprecated.
+< x-business-use-case-usage: {"247414851788542":[{"type":"whatsapp","call_count":1,"total_cputime":1,"total_time":1,"estimated_time_to_regain_access":0}]}
+< access-control-allow-origin: *
+< facebook-api-version: v20.0
+< strict-transport-security: max-age=15552000; preload
+< pragma: no-cache
+< cache-control: private, no-cache, no-store, must-revalidate
+< expires: Sat, 01 Jan 2000 00:00:00 GMT
+< x-fb-request-id: APHszDwPIJWR96yQLpN8cWF
+< x-fb-trace-id: GcahxpiAj9d
+< x-fb-rev: 1021316083
+< x-fb-debug: XzxaQEwWzrx0s2aiihCie4eXW0EVS11lnNdnF0t5EA813fBlPDJojGqzt9F8CynAFe1+FGGyoGKUunIzKCHx+w==
+< content-length: 180
+< date: Thu, 27 Mar 2025 15:49:57 GMT
+< x-fb-connection-quality: EXCELLENT; q=0.9, rtt=9, rtx=0, c=10, mss=1392, tbw=3593, tp=-1, tpl=-1, uplat=443, ullat=0
+< alt-svc: h3=":443"; ma=86400
+< 
+* Connection #0 to host graph.facebook.com left intact
+
+[2025-03-27 16:49:59] ÉXITO: Mensaje enviado correctamente con ID: wamid.HBgNNTQ5MTE1MTEwOTg0NBUCABEYEkQ3OTZCNkNGRTA2OEM3QzFCMgA=
+[2025-03-27 16:49:59] 
+Intentando enviar mensaje con plantilla hello_world...
+[2025-03-27 16:49:59] Datos de la plantilla (JSON): {
+    "messaging_product": "whatsapp",
+    "recipient_type": "individual",
+    "to": "5491151109844",
+    "type": "template",
+    "template": {
+        "name": "hello_world",
+        "language": {
+            "code": "en_US"
+        }
+    }
+}
+[2025-03-27 16:49:59] Enviando solicitud de plantilla...
+[2025-03-27 16:50:00] Código de respuesta HTTP (plantilla): 200
+[2025-03-27 16:50:00] Respuesta completa (plantilla): {"messaging_product":"whatsapp","contacts":[{"input":"5491151109844","wa_id":"5491151109844"}],"messages":[{"id":"wamid.HBgNNTQ5MTE1MTEwOTg0NBUCABEYEjM1MUNDNjBCNDQ5REJCNjMxQQA=","message_status":"accepted"}]}
+[2025-03-27 16:50:00] Respuesta decodificada (plantilla): {
+    "messaging_product": "whatsapp",
+    "contacts": [
+        {
+            "input": "5491151109844",
+            "wa_id": "5491151109844"
+        }
+    ],
+    "messages": [
+        {
+            "id": "wamid.HBgNNTQ5MTE1MTEwOTg0NBUCABEYEjM1MUNDNjBCNDQ5REJCNjMxQQA=",
+            "message_status": "accepted"
+        }
+    ]
+}
+[2025-03-27 16:50:00] ÉXITO: Mensaje de plantilla enviado correctamente con ID: wamid.HBgNNTQ5MTE1MTEwOTg0NBUCABEYEjM1MUNDNjBCNDQ5REJCNjMxQQA=
+[2025-03-27 16:50:00] Prueba finalizada. Archivo de log guardado en: C:\xampp\htdocs\company-teclocator-v2/whatsapp_test_2025-03-27_16-49-58.log

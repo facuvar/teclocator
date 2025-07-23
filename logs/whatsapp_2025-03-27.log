@@ -1,0 +1,738 @@
+[2025-03-27 16:24:42] INFO: Formateando número de teléfono: '+5491140623597'
+[2025-03-27 16:24:42] INFO: Después de eliminar caracteres no numéricos: '5491140623597'
+[2025-03-27 16:24:42] INFO: Número final formateado: '5491140623597'
+[2025-03-27 16:24:42] INFO: Enviando notificación a técnico: Michel (ID: 8) - Teléfono formateado: 5491140623597
+[2025-03-27 16:24:42] INFO: Usando plantilla: nuevo_ticket
+[2025-03-27 16:24:42] INFO: Datos de la solicitud: {
+    "messaging_product": "whatsapp",
+    "recipient_type": "individual",
+    "to": "5491140623597",
+    "type": "template",
+    "template": {
+        "name": "nuevo_ticket",
+        "language": {
+            "code": "es_AR"
+        }
+    }
+}
+[2025-03-27 16:24:43] INFO: Mensaje de WhatsApp con plantilla enviado correctamente a: 5491140623597
+[2025-03-27 16:24:43] INFO: Respuesta: {"messaging_product":"whatsapp","contacts":[{"input":"5491140623597","wa_id":"5491140623597"}],"messages":[{"id":"wamid.HBgNNTQ5MTE0MDYyMzU5NxUCABEYEjdGMjRGNzk5MkM5NEY5N0YzQgA=","message_status":"accepted"}]}
+[2025-03-27 16:30:35] INFO: Formateando número de teléfono: '+5491140623597'
+[2025-03-27 16:30:35] INFO: Después de eliminar caracteres no numéricos: '5491140623597'
+[2025-03-27 16:30:35] INFO: Número final formateado: '5491140623597'
+[2025-03-27 16:30:35] INFO: Enviando mensaje de bienvenida a técnico: Michel (ID: 8) - Teléfono formateado: 5491140623597
+[2025-03-27 16:30:35] INFO: Datos de la solicitud: {
+    "messaging_product": "whatsapp",
+    "recipient_type": "individual",
+    "to": "5491140623597",
+    "type": "text",
+    "text": {
+        "body": "\u00a1Hola Michel! Bienvenido\/a al sistema de gesti\u00f3n de tickets. \ud83d\udc4b\n\nEste es el n\u00famero oficial para notificaciones de tickets. Por favor, *responde a este mensaje* con un OK para activar las notificaciones.\n\nRecibir\u00e1s alertas en este n\u00famero cuando se te asigne un nuevo ticket. \ud83d\udd14\n\nGracias por tu colaboraci\u00f3n."
+    }
+}
+[2025-03-27 16:30:35] INFO: URL de la API: https://graph.facebook.com/v17.0/345032388695817/messages
+[2025-03-27 16:30:36] INFO: Información detallada de cURL:
+*   Trying [2a03:2880:f010:17:face:b00c:0:2]:443...
+* Connected to graph.facebook.com (2a03:2880:f010:17:face:b00c:0:2) port 443
+* ALPN: curl offers h2,http/1.1
+* SSL connection using TLSv1.3 / TLS_CHACHA20_POLY1305_SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: C=US; ST=California; L=Menlo Park; O=Meta Platforms, Inc.; CN=*.facebook.com
+*  start date: Jan  3 00:00:00 2025 GMT
+*  expire date: Apr  3 23:59:59 2025 GMT
+*  subjectAltName: host "graph.facebook.com" matched cert's "*.facebook.com"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA
+*  SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://graph.facebook.com/v17.0/345032388695817/messages
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: graph.facebook.com]
+* [HTTP/2] [1] [:path: /v17.0/345032388695817/messages]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [authorization: Bearer EAAajWSmtP1UBO0oyVHgwg2SHB2kgrBwLNn2Hxke5HZA4ZCocqFLvSeZA1FaYilrcS1vGdQa594z6TOhrcS4lUnB8QL2fy68pAWvAu8r4JhxzZBoiTKIACCHwpplRzjnvHO2RAU4uKoP2WKUvSVRqs6dctkipqUNhqXZBs2l8P2iHTZCcTv9kS2owsqyp2IGiskoQZDZD]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 479]
+> POST /v17.0/345032388695817/messages HTTP/2
+Host: graph.facebook.com
+Accept: */*
+Authorization: Bearer EAAajWSmtP1UBO0oyVHgwg2SHB2kgrBwLNn2Hxke5HZA4ZCocqFLvSeZA1FaYilrcS1vGdQa594z6TOhrcS4lUnB8QL2fy68pAWvAu8r4JhxzZBoiTKIACCHwpplRzjnvHO2RAU4uKoP2WKUvSVRqs6dctkipqUNhqXZBs2l8P2iHTZCcTv9kS2owsqyp2IGiskoQZDZD
+Content-Type: application/json
+Content-Length: 479
+
+< HTTP/2 200 
+< content-type: application/json; charset=UTF-8
+< vary: Origin
+< x-ad-api-version-warning: The call has been auto-upgraded to v20.0 as v17.0 has been deprecated.
+< x-business-use-case-usage: {"247414851788542":[{"type":"whatsapp","call_count":1,"total_cputime":1,"total_time":1,"estimated_time_to_regain_access":0}]}
+< access-control-allow-origin: *
+< facebook-api-version: v20.0
+< strict-transport-security: max-age=15552000; preload
+< pragma: no-cache
+< cache-control: private, no-cache, no-store, must-revalidate
+< expires: Sat, 01 Jan 2000 00:00:00 GMT
+< x-fb-request-id: ALcV725Tu9NDI6Iqr-hXtqz
+< x-fb-trace-id: BiLlW4D5iLm
+< x-fb-rev: 1021320592
+< x-fb-debug: CE5BTDrLmj9l571Yb8LXNZ1mNP4/N2tSunnSExYtPAvcBLJmDy4X+cDtT/IbSdCJiN+M91PUMPCR/YOEkbao3Q==
+< content-length: 180
+< date: Thu, 27 Mar 2025 19:30:34 GMT
+< x-fb-connection-quality: EXCELLENT; q=0.9, rtt=5, rtx=0, c=10, mss=1392, tbw=3593, tp=-1, tpl=-1, uplat=571, ullat=0
+< alt-svc: h3=":443"; ma=86400
+< 
+* Connection #0 to host graph.facebook.com left intact
+[2025-03-27 16:30:36] INFO: Mensaje de bienvenida enviado correctamente a: 5491140623597
+[2025-03-27 16:30:36] INFO: Respuesta: {"messaging_product":"whatsapp","contacts":[{"input":"5491140623597","wa_id":"5491140623597"}],"messages":[{"id":"wamid.HBgNNTQ5MTE0MDYyMzU5NxUCABEYEjhDMEZBQzBGNTUzQTAzNTUwMAA="}]}
+[2025-03-27 16:33:24] INFO: Formateando número de teléfono: '+5491140623597'
+[2025-03-27 16:33:24] INFO: Después de eliminar caracteres no numéricos: '+5491140623597'
+[2025-03-27 16:33:24] INFO: Después de eliminar + inicial: '5491140623597'
+[2025-03-27 16:33:24] INFO: Número final formateado: '5491140623597'
+[2025-03-27 16:33:24] INFO: Enviando mensaje de bienvenida a técnico: Michel (ID: 8) - Teléfono formateado: 5491140623597
+[2025-03-27 16:33:24] INFO: Datos de la solicitud: {
+    "messaging_product": "whatsapp",
+    "recipient_type": "individual",
+    "to": "5491140623597",
+    "type": "text",
+    "text": {
+        "body": "\u00a1Hola Michel! Bienvenido\/a al sistema de gesti\u00f3n de tickets. \ud83d\udc4b\n\nEste es el n\u00famero oficial para notificaciones de tickets. Por favor, *responde a este mensaje* con un OK para activar las notificaciones.\n\nRecibir\u00e1s alertas en este n\u00famero cuando se te asigne un nuevo ticket. \ud83d\udd14\n\nGracias por tu colaboraci\u00f3n."
+    }
+}
+[2025-03-27 16:33:24] INFO: URL de la API: https://graph.facebook.com/v17.0/345032388695817/messages
+[2025-03-27 16:33:25] INFO: Información detallada de cURL:
+*   Trying [2a03:2880:f010:17:face:b00c:0:2]:443...
+* Connected to graph.facebook.com (2a03:2880:f010:17:face:b00c:0:2) port 443
+* ALPN: curl offers h2,http/1.1
+* SSL connection using TLSv1.3 / TLS_CHACHA20_POLY1305_SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: C=US; ST=California; L=Menlo Park; O=Meta Platforms, Inc.; CN=*.facebook.com
+*  start date: Jan  3 00:00:00 2025 GMT
+*  expire date: Apr  3 23:59:59 2025 GMT
+*  subjectAltName: host "graph.facebook.com" matched cert's "*.facebook.com"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA
+*  SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://graph.facebook.com/v17.0/345032388695817/messages
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: graph.facebook.com]
+* [HTTP/2] [1] [:path: /v17.0/345032388695817/messages]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [authorization: Bearer EAAajWSmtP1UBO0oyVHgwg2SHB2kgrBwLNn2Hxke5HZA4ZCocqFLvSeZA1FaYilrcS1vGdQa594z6TOhrcS4lUnB8QL2fy68pAWvAu8r4JhxzZBoiTKIACCHwpplRzjnvHO2RAU4uKoP2WKUvSVRqs6dctkipqUNhqXZBs2l8P2iHTZCcTv9kS2owsqyp2IGiskoQZDZD]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 479]
+> POST /v17.0/345032388695817/messages HTTP/2
+Host: graph.facebook.com
+Accept: */*
+Authorization: Bearer EAAajWSmtP1UBO0oyVHgwg2SHB2kgrBwLNn2Hxke5HZA4ZCocqFLvSeZA1FaYilrcS1vGdQa594z6TOhrcS4lUnB8QL2fy68pAWvAu8r4JhxzZBoiTKIACCHwpplRzjnvHO2RAU4uKoP2WKUvSVRqs6dctkipqUNhqXZBs2l8P2iHTZCcTv9kS2owsqyp2IGiskoQZDZD
+Content-Type: application/json
+Content-Length: 479
+
+< HTTP/2 200 
+< content-type: application/json; charset=UTF-8
+< vary: Origin
+< x-ad-api-version-warning: The call has been auto-upgraded to v20.0 as v17.0 has been deprecated.
+< x-business-use-case-usage: {"247414851788542":[{"type":"whatsapp","call_count":1,"total_cputime":1,"total_time":1,"estimated_time_to_regain_access":0}]}
+< access-control-allow-origin: *
+< facebook-api-version: v20.0
+< strict-transport-security: max-age=15552000; preload
+< pragma: no-cache
+< cache-control: private, no-cache, no-store, must-revalidate
+< expires: Sat, 01 Jan 2000 00:00:00 GMT
+< x-fb-request-id: AXQt_j9ij1jRcDYC--NYHNe
+< x-fb-trace-id: ByXD4+e/OaH
+< x-fb-rev: 1021320592
+< x-fb-debug: VUzdcqKRwVgSB7N5hx+bOcVU+GFQCAjZw173WoKhn1Mmztu9dEaYR4aEEDVmoy1RdHNv8GBfr5Xvey3X5zqw5Q==
+< content-length: 180
+< date: Thu, 27 Mar 2025 19:33:23 GMT
+< x-fb-connection-quality: EXCELLENT; q=0.9, rtt=11, rtx=0, c=10, mss=1392, tbw=3593, tp=-1, tpl=-1, uplat=609, ullat=0
+< alt-svc: h3=":443"; ma=86400
+< 
+* Connection #0 to host graph.facebook.com left intact
+[2025-03-27 16:33:25] INFO: Mensaje de bienvenida enviado correctamente a: 5491140623597
+[2025-03-27 16:33:25] INFO: Respuesta: {"messaging_product":"whatsapp","contacts":[{"input":"5491140623597","wa_id":"5491140623597"}],"messages":[{"id":"wamid.HBgNNTQ5MTE0MDYyMzU5NxUCABEYEkJEQ0RDMDI2NzZFNTA1MUU5NAA="}]}
+[2025-03-27 16:33:54] INFO: Formateando número de teléfono: '+5491140623597'
+[2025-03-27 16:33:54] INFO: Después de eliminar caracteres no numéricos: '+5491140623597'
+[2025-03-27 16:33:54] INFO: Después de eliminar + inicial: '5491140623597'
+[2025-03-27 16:33:54] INFO: Número final formateado: '5491140623597'
+[2025-03-27 16:33:54] INFO: Enviando mensaje de bienvenida a técnico: Michel (ID: 8) - Teléfono formateado: 5491140623597
+[2025-03-27 16:33:54] INFO: Datos de la solicitud: {
+    "messaging_product": "whatsapp",
+    "recipient_type": "individual",
+    "to": "5491140623597",
+    "type": "text",
+    "text": {
+        "body": "\u00a1Hola Michel! Bienvenido\/a al sistema de gesti\u00f3n de tickets. \ud83d\udc4b\n\nEste es el n\u00famero oficial para notificaciones de tickets. Por favor, *responde a este mensaje* con un OK para activar las notificaciones.\n\nRecibir\u00e1s alertas en este n\u00famero cuando se te asigne un nuevo ticket. \ud83d\udd14\n\nGracias por tu colaboraci\u00f3n."
+    }
+}
+[2025-03-27 16:33:54] INFO: URL de la API: https://graph.facebook.com/v17.0/345032388695817/messages
+[2025-03-27 16:33:55] INFO: Información detallada de cURL:
+*   Trying [2a03:2880:f010:17:face:b00c:0:2]:443...
+* Connected to graph.facebook.com (2a03:2880:f010:17:face:b00c:0:2) port 443
+* ALPN: curl offers h2,http/1.1
+* SSL connection using TLSv1.3 / TLS_CHACHA20_POLY1305_SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: C=US; ST=California; L=Menlo Park; O=Meta Platforms, Inc.; CN=*.facebook.com
+*  start date: Jan  3 00:00:00 2025 GMT
+*  expire date: Apr  3 23:59:59 2025 GMT
+*  subjectAltName: host "graph.facebook.com" matched cert's "*.facebook.com"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA
+*  SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://graph.facebook.com/v17.0/345032388695817/messages
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: graph.facebook.com]
+* [HTTP/2] [1] [:path: /v17.0/345032388695817/messages]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [authorization: Bearer EAAajWSmtP1UBO0oyVHgwg2SHB2kgrBwLNn2Hxke5HZA4ZCocqFLvSeZA1FaYilrcS1vGdQa594z6TOhrcS4lUnB8QL2fy68pAWvAu8r4JhxzZBoiTKIACCHwpplRzjnvHO2RAU4uKoP2WKUvSVRqs6dctkipqUNhqXZBs2l8P2iHTZCcTv9kS2owsqyp2IGiskoQZDZD]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 479]
+> POST /v17.0/345032388695817/messages HTTP/2
+Host: graph.facebook.com
+Accept: */*
+Authorization: Bearer EAAajWSmtP1UBO0oyVHgwg2SHB2kgrBwLNn2Hxke5HZA4ZCocqFLvSeZA1FaYilrcS1vGdQa594z6TOhrcS4lUnB8QL2fy68pAWvAu8r4JhxzZBoiTKIACCHwpplRzjnvHO2RAU4uKoP2WKUvSVRqs6dctkipqUNhqXZBs2l8P2iHTZCcTv9kS2owsqyp2IGiskoQZDZD
+Content-Type: application/json
+Content-Length: 479
+
+< HTTP/2 200 
+< content-type: application/json; charset=UTF-8
+< vary: Origin
+< x-ad-api-version-warning: The call has been auto-upgraded to v20.0 as v17.0 has been deprecated.
+< x-business-use-case-usage: {"247414851788542":[{"type":"whatsapp","call_count":1,"total_cputime":1,"total_time":1,"estimated_time_to_regain_access":0}]}
+< access-control-allow-origin: *
+< facebook-api-version: v20.0
+< strict-transport-security: max-age=15552000; preload
+< pragma: no-cache
+< cache-control: private, no-cache, no-store, must-revalidate
+< expires: Sat, 01 Jan 2000 00:00:00 GMT
+< x-fb-request-id: AXijBtDoHFR3rKCW0ZOAyv5
+< x-fb-trace-id: AaxTj1CP9mX
+< x-fb-rev: 1021320592
+< x-fb-debug: b+vaBJcB5xDZpkZA32lPcYNKX4x126DwcdYujy3+dzkHyEwvhcqkO/PEpnJuO8xZVA3qv9CkCrGSPjFkSwjdmQ==
+< content-length: 180
+< date: Thu, 27 Mar 2025 19:33:53 GMT
+< x-fb-connection-quality: EXCELLENT; q=0.9, rtt=6, rtx=0, c=10, mss=1392, tbw=3593, tp=-1, tpl=-1, uplat=584, ullat=0
+< alt-svc: h3=":443"; ma=86400
+< 
+* Connection #0 to host graph.facebook.com left intact
+[2025-03-27 16:33:55] INFO: Mensaje de bienvenida enviado correctamente a: 5491140623597
+[2025-03-27 16:33:55] INFO: Respuesta: {"messaging_product":"whatsapp","contacts":[{"input":"5491140623597","wa_id":"5491140623597"}],"messages":[{"id":"wamid.HBgNNTQ5MTE0MDYyMzU5NxUCABEYEkZCN0M5QUYwRTlCMUNCRURBRQA="}]}
+[2025-03-27 16:36:39] INFO: Formateando número de teléfono: '+5491140623597'
+[2025-03-27 16:36:39] INFO: Después de eliminar caracteres no numéricos: '+5491140623597'
+[2025-03-27 16:36:39] INFO: Después de eliminar + inicial: '5491140623597'
+[2025-03-27 16:36:39] INFO: Número final formateado: '5491140623597'
+[2025-03-27 16:36:39] INFO: Enviando notificación a técnico: Michel (ID: 8) - Teléfono formateado: 5491140623597
+[2025-03-27 16:36:39] INFO: Usando plantilla: nuevo_ticket
+[2025-03-27 16:36:39] INFO: Datos de la solicitud: {
+    "messaging_product": "whatsapp",
+    "recipient_type": "individual",
+    "to": "5491140623597",
+    "type": "template",
+    "template": {
+        "name": "nuevo_ticket",
+        "language": {
+            "code": "es_AR"
+        }
+    }
+}
+[2025-03-27 16:36:40] INFO: Mensaje de WhatsApp con plantilla enviado correctamente a: 5491140623597
+[2025-03-27 16:36:40] INFO: Respuesta: {"messaging_product":"whatsapp","contacts":[{"input":"5491140623597","wa_id":"5491140623597"}],"messages":[{"id":"wamid.HBgNNTQ5MTE0MDYyMzU5NxUCABEYEkVGNDRFMTM1M0FFQzZBNTdDRgA=","message_status":"accepted"}]}
+[2025-03-27 16:37:24] INFO: Formateando número de teléfono: '+5491151109844'
+[2025-03-27 16:37:24] INFO: Después de eliminar caracteres no numéricos: '+5491151109844'
+[2025-03-27 16:37:24] INFO: Después de eliminar + inicial: '5491151109844'
+[2025-03-27 16:37:24] INFO: Número final formateado: '5491151109844'
+[2025-03-27 16:37:24] INFO: Enviando notificación a técnico: facu tecnik (ID: 5) - Teléfono formateado: 5491151109844
+[2025-03-27 16:37:24] INFO: Usando plantilla: nuevo_ticket
+[2025-03-27 16:37:24] INFO: Datos de la solicitud: {
+    "messaging_product": "whatsapp",
+    "recipient_type": "individual",
+    "to": "5491151109844",
+    "type": "template",
+    "template": {
+        "name": "nuevo_ticket",
+        "language": {
+            "code": "es_AR"
+        }
+    }
+}
+[2025-03-27 16:37:25] INFO: Mensaje de WhatsApp con plantilla enviado correctamente a: 5491151109844
+[2025-03-27 16:37:25] INFO: Respuesta: {"messaging_product":"whatsapp","contacts":[{"input":"5491151109844","wa_id":"5491151109844"}],"messages":[{"id":"wamid.HBgNNTQ5MTE1MTEwOTg0NBUCABEYEjM5MjYzQkI1NDQyNjZBNDRDQwA=","message_status":"accepted"}]}
+[2025-03-27 16:39:33] INFO: Formateando número de teléfono: '+5491126317946'
+[2025-03-27 16:39:33] INFO: Después de eliminar caracteres no numéricos: '+5491126317946'
+[2025-03-27 16:39:33] INFO: Después de eliminar + inicial: '5491126317946'
+[2025-03-27 16:39:33] INFO: Número final formateado: '5491126317946'
+[2025-03-27 16:39:33] INFO: Enviando mensaje de bienvenida a técnico: Santiago Habib (ID: 7) - Teléfono formateado: 5491126317946
+[2025-03-27 16:39:33] INFO: Datos de la solicitud: {
+    "messaging_product": "whatsapp",
+    "recipient_type": "individual",
+    "to": "5491126317946",
+    "type": "text",
+    "text": {
+        "body": "\u00a1Hola Santiago Habib! Bienvenido\/a al sistema de gesti\u00f3n de tickets. \ud83d\udc4b\n\nEste es el n\u00famero oficial para notificaciones de tickets. Por favor, *responde a este mensaje* con un OK para activar las notificaciones.\n\nRecibir\u00e1s alertas en este n\u00famero cuando se te asigne un nuevo ticket. \ud83d\udd14\n\nGracias por tu colaboraci\u00f3n."
+    }
+}
+[2025-03-27 16:39:33] INFO: URL de la API: https://graph.facebook.com/v17.0/345032388695817/messages
+[2025-03-27 16:39:34] INFO: Información detallada de cURL:
+*   Trying [2a03:2880:f010:17:face:b00c:0:2]:443...
+* Connected to graph.facebook.com (2a03:2880:f010:17:face:b00c:0:2) port 443
+* ALPN: curl offers h2,http/1.1
+* SSL connection using TLSv1.3 / TLS_CHACHA20_POLY1305_SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: C=US; ST=California; L=Menlo Park; O=Meta Platforms, Inc.; CN=*.facebook.com
+*  start date: Jan  3 00:00:00 2025 GMT
+*  expire date: Apr  3 23:59:59 2025 GMT
+*  subjectAltName: host "graph.facebook.com" matched cert's "*.facebook.com"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA
+*  SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://graph.facebook.com/v17.0/345032388695817/messages
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: graph.facebook.com]
+* [HTTP/2] [1] [:path: /v17.0/345032388695817/messages]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [authorization: Bearer EAAajWSmtP1UBO0oyVHgwg2SHB2kgrBwLNn2Hxke5HZA4ZCocqFLvSeZA1FaYilrcS1vGdQa594z6TOhrcS4lUnB8QL2fy68pAWvAu8r4JhxzZBoiTKIACCHwpplRzjnvHO2RAU4uKoP2WKUvSVRqs6dctkipqUNhqXZBs2l8P2iHTZCcTv9kS2owsqyp2IGiskoQZDZD]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 487]
+> POST /v17.0/345032388695817/messages HTTP/2
+Host: graph.facebook.com
+Accept: */*
+Authorization: Bearer EAAajWSmtP1UBO0oyVHgwg2SHB2kgrBwLNn2Hxke5HZA4ZCocqFLvSeZA1FaYilrcS1vGdQa594z6TOhrcS4lUnB8QL2fy68pAWvAu8r4JhxzZBoiTKIACCHwpplRzjnvHO2RAU4uKoP2WKUvSVRqs6dctkipqUNhqXZBs2l8P2iHTZCcTv9kS2owsqyp2IGiskoQZDZD
+Content-Type: application/json
+Content-Length: 487
+
+< HTTP/2 200 
+< content-type: application/json; charset=UTF-8
+< vary: Origin
+< x-ad-api-version-warning: The call has been auto-upgraded to v20.0 as v17.0 has been deprecated.
+< x-business-use-case-usage: {"247414851788542":[{"type":"whatsapp","call_count":1,"total_cputime":1,"total_time":1,"estimated_time_to_regain_access":0}]}
+< access-control-allow-origin: *
+< facebook-api-version: v20.0
+< strict-transport-security: max-age=15552000; preload
+< pragma: no-cache
+< cache-control: private, no-cache, no-store, must-revalidate
+< expires: Sat, 01 Jan 2000 00:00:00 GMT
+< x-fb-request-id: AB1zv990wovc_yxFts9-Gxe
+< x-fb-trace-id: CzEaWMVO1KG
+< x-fb-rev: 1021320592
+< x-fb-debug: x94e70f5MRYKQzn7F8eeRUmRvXp3pbfL6l5QtYpEv/7ZD/tqvDHWejdoOk2moGHQiNoQigxLjobpQz4NGjRHRw==
+< content-length: 180
+< date: Thu, 27 Mar 2025 19:39:32 GMT
+< x-fb-connection-quality: EXCELLENT; q=0.9, rtt=11, rtx=0, c=10, mss=1392, tbw=3615, tp=-1, tpl=-1, uplat=706, ullat=0
+< alt-svc: h3=":443"; ma=86400
+< 
+* Connection #0 to host graph.facebook.com left intact
+[2025-03-27 16:39:34] INFO: Mensaje de bienvenida enviado correctamente a: 5491126317946
+[2025-03-27 16:39:34] INFO: Respuesta: {"messaging_product":"whatsapp","contacts":[{"input":"5491126317946","wa_id":"5491126317946"}],"messages":[{"id":"wamid.HBgNNTQ5MTEyNjMxNzk0NhUCABEYEkM0QzQ1RDRFODQxNUQxQUEyOAA="}]}
+[2025-03-27 16:42:16] INFO: Formateando número de teléfono: '+5491151109844'
+[2025-03-27 16:42:16] INFO: Después de eliminar caracteres no numéricos: '+5491151109844'
+[2025-03-27 16:42:16] INFO: Después de eliminar + inicial: '5491151109844'
+[2025-03-27 16:42:16] INFO: Número final formateado: '5491151109844'
+[2025-03-27 16:42:16] INFO: Enviando mensaje de bienvenida a técnico: facu tecnik (ID: 5) - Teléfono formateado: 5491151109844
+[2025-03-27 16:42:16] INFO: Datos de la solicitud: {
+    "messaging_product": "whatsapp",
+    "recipient_type": "individual",
+    "to": "5491151109844",
+    "type": "text",
+    "text": {
+        "body": "\u00a1Hola facu tecnik! Bienvenido\/a al sistema de gesti\u00f3n de tickets. \ud83d\udc4b\n\nEste es el n\u00famero oficial para notificaciones de tickets. Por favor, *responde a este mensaje* con un OK para activar las notificaciones.\n\nRecibir\u00e1s alertas en este n\u00famero cuando se te asigne un nuevo ticket. \ud83d\udd14\n\nGracias por tu colaboraci\u00f3n."
+    }
+}
+[2025-03-27 16:42:16] INFO: URL de la API: https://graph.facebook.com/v17.0/345032388695817/messages
+[2025-03-27 16:42:17] INFO: Información detallada de cURL:
+*   Trying [2a03:2880:f010:17:face:b00c:0:2]:443...
+* Connected to graph.facebook.com (2a03:2880:f010:17:face:b00c:0:2) port 443
+* ALPN: curl offers h2,http/1.1
+* SSL connection using TLSv1.3 / TLS_CHACHA20_POLY1305_SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: C=US; ST=California; L=Menlo Park; O=Meta Platforms, Inc.; CN=*.facebook.com
+*  start date: Jan  3 00:00:00 2025 GMT
+*  expire date: Apr  3 23:59:59 2025 GMT
+*  subjectAltName: host "graph.facebook.com" matched cert's "*.facebook.com"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA
+*  SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://graph.facebook.com/v17.0/345032388695817/messages
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: graph.facebook.com]
+* [HTTP/2] [1] [:path: /v17.0/345032388695817/messages]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [authorization: Bearer EAAajWSmtP1UBO0oyVHgwg2SHB2kgrBwLNn2Hxke5HZA4ZCocqFLvSeZA1FaYilrcS1vGdQa594z6TOhrcS4lUnB8QL2fy68pAWvAu8r4JhxzZBoiTKIACCHwpplRzjnvHO2RAU4uKoP2WKUvSVRqs6dctkipqUNhqXZBs2l8P2iHTZCcTv9kS2owsqyp2IGiskoQZDZD]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 484]
+> POST /v17.0/345032388695817/messages HTTP/2
+Host: graph.facebook.com
+Accept: */*
+Authorization: Bearer EAAajWSmtP1UBO0oyVHgwg2SHB2kgrBwLNn2Hxke5HZA4ZCocqFLvSeZA1FaYilrcS1vGdQa594z6TOhrcS4lUnB8QL2fy68pAWvAu8r4JhxzZBoiTKIACCHwpplRzjnvHO2RAU4uKoP2WKUvSVRqs6dctkipqUNhqXZBs2l8P2iHTZCcTv9kS2owsqyp2IGiskoQZDZD
+Content-Type: application/json
+Content-Length: 484
+
+< HTTP/2 200 
+< content-type: application/json; charset=UTF-8
+< vary: Origin
+< x-ad-api-version-warning: The call has been auto-upgraded to v20.0 as v17.0 has been deprecated.
+< x-business-use-case-usage: {"247414851788542":[{"type":"whatsapp","call_count":1,"total_cputime":1,"total_time":1,"estimated_time_to_regain_access":0}]}
+< access-control-allow-origin: *
+< facebook-api-version: v20.0
+< strict-transport-security: max-age=15552000; preload
+< pragma: no-cache
+< cache-control: private, no-cache, no-store, must-revalidate
+< expires: Sat, 01 Jan 2000 00:00:00 GMT
+< x-fb-request-id: AcvmFm4_vv3lQZ6cES4ZMcq
+< x-fb-trace-id: GXxDx08B0pA
+< x-fb-rev: 1021320592
+< x-fb-debug: 81ptglh3AMR0Bx5bc27GYnYhusOJucQfQ5eVTZSz2dIjGx6RoT2tljgf7VT0xRpYlqKoX7DUPEYuvVX3Us8cLg==
+< content-length: 180
+< date: Thu, 27 Mar 2025 19:42:15 GMT
+< x-fb-connection-quality: EXCELLENT; q=0.9, rtt=7, rtx=0, c=10, mss=1392, tbw=3593, tp=-1, tpl=-1, uplat=688, ullat=0
+< alt-svc: h3=":443"; ma=86400
+< 
+* Connection #0 to host graph.facebook.com left intact
+[2025-03-27 16:42:17] INFO: Mensaje de bienvenida enviado correctamente a: 5491151109844
+[2025-03-27 16:42:17] INFO: Respuesta: {"messaging_product":"whatsapp","contacts":[{"input":"5491151109844","wa_id":"5491151109844"}],"messages":[{"id":"wamid.HBgNNTQ5MTE1MTEwOTg0NBUCABEYEjIwNzFDNjRBQkNDREY0N0NFRgA="}]}
+[2025-03-27 16:42:36] INFO: Formateando número de teléfono: '+5491140623597'
+[2025-03-27 16:42:36] INFO: Después de eliminar caracteres no numéricos: '+5491140623597'
+[2025-03-27 16:42:36] INFO: Después de eliminar + inicial: '5491140623597'
+[2025-03-27 16:42:36] INFO: Número final formateado: '5491140623597'
+[2025-03-27 16:42:36] INFO: Enviando mensaje de bienvenida a técnico: Michel (ID: 8) - Teléfono formateado: 5491140623597
+[2025-03-27 16:42:36] INFO: Datos de la solicitud: {
+    "messaging_product": "whatsapp",
+    "recipient_type": "individual",
+    "to": "5491140623597",
+    "type": "text",
+    "text": {
+        "body": "\u00a1Hola Michel! Bienvenido\/a al sistema de gesti\u00f3n de tickets. \ud83d\udc4b\n\nEste es el n\u00famero oficial para notificaciones de tickets. Por favor, *responde a este mensaje* con un OK para activar las notificaciones.\n\nRecibir\u00e1s alertas en este n\u00famero cuando se te asigne un nuevo ticket. \ud83d\udd14\n\nGracias por tu colaboraci\u00f3n."
+    }
+}
+[2025-03-27 16:42:36] INFO: URL de la API: https://graph.facebook.com/v17.0/345032388695817/messages
+[2025-03-27 16:42:36] INFO: Información detallada de cURL:
+*   Trying [2a03:2880:f010:17:face:b00c:0:2]:443...
+* Connected to graph.facebook.com (2a03:2880:f010:17:face:b00c:0:2) port 443
+* ALPN: curl offers h2,http/1.1
+* SSL connection using TLSv1.3 / TLS_CHACHA20_POLY1305_SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: C=US; ST=California; L=Menlo Park; O=Meta Platforms, Inc.; CN=*.facebook.com
+*  start date: Jan  3 00:00:00 2025 GMT
+*  expire date: Apr  3 23:59:59 2025 GMT
+*  subjectAltName: host "graph.facebook.com" matched cert's "*.facebook.com"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA
+*  SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://graph.facebook.com/v17.0/345032388695817/messages
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: graph.facebook.com]
+* [HTTP/2] [1] [:path: /v17.0/345032388695817/messages]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [authorization: Bearer EAAajWSmtP1UBO0oyVHgwg2SHB2kgrBwLNn2Hxke5HZA4ZCocqFLvSeZA1FaYilrcS1vGdQa594z6TOhrcS4lUnB8QL2fy68pAWvAu8r4JhxzZBoiTKIACCHwpplRzjnvHO2RAU4uKoP2WKUvSVRqs6dctkipqUNhqXZBs2l8P2iHTZCcTv9kS2owsqyp2IGiskoQZDZD]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 479]
+> POST /v17.0/345032388695817/messages HTTP/2
+Host: graph.facebook.com
+Accept: */*
+Authorization: Bearer EAAajWSmtP1UBO0oyVHgwg2SHB2kgrBwLNn2Hxke5HZA4ZCocqFLvSeZA1FaYilrcS1vGdQa594z6TOhrcS4lUnB8QL2fy68pAWvAu8r4JhxzZBoiTKIACCHwpplRzjnvHO2RAU4uKoP2WKUvSVRqs6dctkipqUNhqXZBs2l8P2iHTZCcTv9kS2owsqyp2IGiskoQZDZD
+Content-Type: application/json
+Content-Length: 479
+
+< HTTP/2 200 
+< content-type: application/json; charset=UTF-8
+< vary: Origin
+< x-ad-api-version-warning: The call has been auto-upgraded to v20.0 as v17.0 has been deprecated.
+< x-business-use-case-usage: {"247414851788542":[{"type":"whatsapp","call_count":1,"total_cputime":1,"total_time":1,"estimated_time_to_regain_access":0}]}
+< access-control-allow-origin: *
+< facebook-api-version: v20.0
+< strict-transport-security: max-age=15552000; preload
+< pragma: no-cache
+< cache-control: private, no-cache, no-store, must-revalidate
+< expires: Sat, 01 Jan 2000 00:00:00 GMT
+< x-fb-request-id: Af0YZZ4J8rtFP0iHIWDs8Z8
+< x-fb-trace-id: HrfNnEpijcQ
+< x-fb-rev: 1021320592
+< x-fb-debug: hnUFw9wlFyfUibA6Z4Z7JNt3zZMDAAeR9oLVl4dJF0kkTi+3zemuOHgWLfJKJbZU43T23z8dv8CYnQhZJ0+8ug==
+< content-length: 180
+< date: Thu, 27 Mar 2025 19:42:35 GMT
+< x-fb-connection-quality: EXCELLENT; q=0.9, rtt=3, rtx=0, c=10, mss=1392, tbw=3593, tp=-1, tpl=-1, uplat=675, ullat=0
+< alt-svc: h3=":443"; ma=86400
+< 
+* Connection #0 to host graph.facebook.com left intact
+[2025-03-27 16:42:36] INFO: Mensaje de bienvenida enviado correctamente a: 5491140623597
+[2025-03-27 16:42:36] INFO: Respuesta: {"messaging_product":"whatsapp","contacts":[{"input":"5491140623597","wa_id":"5491140623597"}],"messages":[{"id":"wamid.HBgNNTQ5MTE0MDYyMzU5NxUCABEYEkY1NTE1NzcxREM5OUZDMUE4MgA="}]}
+[2025-03-27 16:43:27] INFO: Formateando número de teléfono: '+5491140623597'
+[2025-03-27 16:43:27] INFO: Después de eliminar caracteres no numéricos: '+5491140623597'
+[2025-03-27 16:43:27] INFO: Después de eliminar + inicial: '5491140623597'
+[2025-03-27 16:43:27] INFO: Número final formateado: '5491140623597'
+[2025-03-27 16:43:27] INFO: Enviando mensaje de bienvenida a técnico: Michel (ID: 8) - Teléfono formateado: 5491140623597
+[2025-03-27 16:43:27] INFO: Datos de la solicitud: {
+    "messaging_product": "whatsapp",
+    "recipient_type": "individual",
+    "to": "5491140623597",
+    "type": "text",
+    "text": {
+        "body": "\u00a1Hola Michel! Bienvenido\/a al sistema de gesti\u00f3n de tickets. \ud83d\udc4b\n\nEste es el n\u00famero oficial para notificaciones de tickets. Por favor, *responde a este mensaje* con un OK para activar las notificaciones.\n\nRecibir\u00e1s alertas en este n\u00famero cuando se te asigne un nuevo ticket. \ud83d\udd14\n\nGracias por tu colaboraci\u00f3n."
+    }
+}
+[2025-03-27 16:43:27] INFO: URL de la API: https://graph.facebook.com/v17.0/345032388695817/messages
+[2025-03-27 16:43:28] INFO: Información detallada de cURL:
+*   Trying [2a03:2880:f010:17:face:b00c:0:2]:443...
+* Connected to graph.facebook.com (2a03:2880:f010:17:face:b00c:0:2) port 443
+* ALPN: curl offers h2,http/1.1
+* SSL connection using TLSv1.3 / TLS_CHACHA20_POLY1305_SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: C=US; ST=California; L=Menlo Park; O=Meta Platforms, Inc.; CN=*.facebook.com
+*  start date: Jan  3 00:00:00 2025 GMT
+*  expire date: Apr  3 23:59:59 2025 GMT
+*  subjectAltName: host "graph.facebook.com" matched cert's "*.facebook.com"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA
+*  SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://graph.facebook.com/v17.0/345032388695817/messages
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: graph.facebook.com]
+* [HTTP/2] [1] [:path: /v17.0/345032388695817/messages]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [authorization: Bearer EAAajWSmtP1UBO0oyVHgwg2SHB2kgrBwLNn2Hxke5HZA4ZCocqFLvSeZA1FaYilrcS1vGdQa594z6TOhrcS4lUnB8QL2fy68pAWvAu8r4JhxzZBoiTKIACCHwpplRzjnvHO2RAU4uKoP2WKUvSVRqs6dctkipqUNhqXZBs2l8P2iHTZCcTv9kS2owsqyp2IGiskoQZDZD]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 479]
+> POST /v17.0/345032388695817/messages HTTP/2
+Host: graph.facebook.com
+Accept: */*
+Authorization: Bearer EAAajWSmtP1UBO0oyVHgwg2SHB2kgrBwLNn2Hxke5HZA4ZCocqFLvSeZA1FaYilrcS1vGdQa594z6TOhrcS4lUnB8QL2fy68pAWvAu8r4JhxzZBoiTKIACCHwpplRzjnvHO2RAU4uKoP2WKUvSVRqs6dctkipqUNhqXZBs2l8P2iHTZCcTv9kS2owsqyp2IGiskoQZDZD
+Content-Type: application/json
+Content-Length: 479
+
+< HTTP/2 200 
+< content-type: application/json; charset=UTF-8
+< vary: Origin
+< x-ad-api-version-warning: The call has been auto-upgraded to v20.0 as v17.0 has been deprecated.
+< x-business-use-case-usage: {"247414851788542":[{"type":"whatsapp","call_count":1,"total_cputime":1,"total_time":1,"estimated_time_to_regain_access":0}]}
+< access-control-allow-origin: *
+< facebook-api-version: v20.0
+< strict-transport-security: max-age=15552000; preload
+< pragma: no-cache
+< cache-control: private, no-cache, no-store, must-revalidate
+< expires: Sat, 01 Jan 2000 00:00:00 GMT
+< x-fb-request-id: AIlUp7Xcebw2Wp_9w0WI9DD
+< x-fb-trace-id: He9xhghdfk3
+< x-fb-rev: 1021320592
+< x-fb-debug: P5jG/LebXNI0SygRqiTrJFItJSM31TGoX8XyAsbM1wMn4RjLCEADuqooeaYys9u/yp7hDDib4bBhSMe6UNtOGw==
+< content-length: 180
+< date: Thu, 27 Mar 2025 19:43:26 GMT
+< x-fb-connection-quality: EXCELLENT; q=0.9, rtt=4, rtx=0, c=10, mss=1392, tbw=3577, tp=-1, tpl=-1, uplat=636, ullat=0
+< alt-svc: h3=":443"; ma=86400
+< 
+* Connection #0 to host graph.facebook.com left intact
+[2025-03-27 16:43:28] INFO: Mensaje de bienvenida enviado correctamente a: 5491140623597
+[2025-03-27 16:43:28] INFO: Respuesta: {"messaging_product":"whatsapp","contacts":[{"input":"5491140623597","wa_id":"5491140623597"}],"messages":[{"id":"wamid.HBgNNTQ5MTE0MDYyMzU5NxUCABEYEjY3RUE4NzgzRDJGOTA4MDA4RQA="}]}
+[2025-03-27 16:43:51] INFO: Formateando número de teléfono: '+5491140623597'
+[2025-03-27 16:43:51] INFO: Después de eliminar caracteres no numéricos: '+5491140623597'
+[2025-03-27 16:43:51] INFO: Después de eliminar + inicial: '5491140623597'
+[2025-03-27 16:43:51] INFO: Número final formateado: '5491140623597'
+[2025-03-27 16:43:51] INFO: Enviando mensaje de bienvenida a técnico: Michel (ID: 8) - Teléfono formateado: 5491140623597
+[2025-03-27 16:43:51] INFO: Datos de la solicitud: {
+    "messaging_product": "whatsapp",
+    "recipient_type": "individual",
+    "to": "5491140623597",
+    "type": "text",
+    "text": {
+        "body": "\u00a1Hola Michel! Bienvenido\/a al sistema de gesti\u00f3n de tickets. \ud83d\udc4b\n\nEste es el n\u00famero oficial para notificaciones de tickets. Por favor, *responde a este mensaje* con un OK para activar las notificaciones.\n\nRecibir\u00e1s alertas en este n\u00famero cuando se te asigne un nuevo ticket. \ud83d\udd14\n\nGracias por tu colaboraci\u00f3n."
+    }
+}
+[2025-03-27 16:43:51] INFO: URL de la API: https://graph.facebook.com/v17.0/345032388695817/messages
+[2025-03-27 16:43:52] INFO: Información detallada de cURL:
+*   Trying [2a03:2880:f010:17:face:b00c:0:2]:443...
+* Connected to graph.facebook.com (2a03:2880:f010:17:face:b00c:0:2) port 443
+* ALPN: curl offers h2,http/1.1
+* SSL connection using TLSv1.3 / TLS_CHACHA20_POLY1305_SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: C=US; ST=California; L=Menlo Park; O=Meta Platforms, Inc.; CN=*.facebook.com
+*  start date: Jan  3 00:00:00 2025 GMT
+*  expire date: Apr  3 23:59:59 2025 GMT
+*  subjectAltName: host "graph.facebook.com" matched cert's "*.facebook.com"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA
+*  SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://graph.facebook.com/v17.0/345032388695817/messages
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: graph.facebook.com]
+* [HTTP/2] [1] [:path: /v17.0/345032388695817/messages]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [authorization: Bearer EAAajWSmtP1UBO0oyVHgwg2SHB2kgrBwLNn2Hxke5HZA4ZCocqFLvSeZA1FaYilrcS1vGdQa594z6TOhrcS4lUnB8QL2fy68pAWvAu8r4JhxzZBoiTKIACCHwpplRzjnvHO2RAU4uKoP2WKUvSVRqs6dctkipqUNhqXZBs2l8P2iHTZCcTv9kS2owsqyp2IGiskoQZDZD]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 479]
+> POST /v17.0/345032388695817/messages HTTP/2
+Host: graph.facebook.com
+Accept: */*
+Authorization: Bearer EAAajWSmtP1UBO0oyVHgwg2SHB2kgrBwLNn2Hxke5HZA4ZCocqFLvSeZA1FaYilrcS1vGdQa594z6TOhrcS4lUnB8QL2fy68pAWvAu8r4JhxzZBoiTKIACCHwpplRzjnvHO2RAU4uKoP2WKUvSVRqs6dctkipqUNhqXZBs2l8P2iHTZCcTv9kS2owsqyp2IGiskoQZDZD
+Content-Type: application/json
+Content-Length: 479
+
+< HTTP/2 200 
+< content-type: application/json; charset=UTF-8
+< vary: Origin
+< x-ad-api-version-warning: The call has been auto-upgraded to v20.0 as v17.0 has been deprecated.
+< x-business-use-case-usage: {"247414851788542":[{"type":"whatsapp","call_count":1,"total_cputime":1,"total_time":1,"estimated_time_to_regain_access":0}]}
+< access-control-allow-origin: *
+< facebook-api-version: v20.0
+< strict-transport-security: max-age=15552000; preload
+< pragma: no-cache
+< cache-control: private, no-cache, no-store, must-revalidate
+< expires: Sat, 01 Jan 2000 00:00:00 GMT
+< x-fb-request-id: AeUmHrAiEUwk8Rmp6L3uUbk
+< x-fb-trace-id: FGBKEWcSmyZ
+< x-fb-rev: 1021320592
+< x-fb-debug: pDiK4OZ90IlowTZoy4FlOI2ZROv9pZXjR7WuDt7DBfQWTgfjNDMW17gii8cNIiO7/r3bP/YrMNM4yyAizMqNvA==
+< content-length: 180
+< date: Thu, 27 Mar 2025 19:43:50 GMT
+< x-fb-connection-quality: EXCELLENT; q=0.9, rtt=10, rtx=0, c=10, mss=1392, tbw=3593, tp=-1, tpl=-1, uplat=563, ullat=0
+< alt-svc: h3=":443"; ma=86400
+< 
+* Connection #0 to host graph.facebook.com left intact
+[2025-03-27 16:43:52] INFO: Mensaje de bienvenida enviado correctamente a: 5491140623597
+[2025-03-27 16:43:52] INFO: Respuesta: {"messaging_product":"whatsapp","contacts":[{"input":"5491140623597","wa_id":"5491140623597"}],"messages":[{"id":"wamid.HBgNNTQ5MTE0MDYyMzU5NxUCABEYEjVBOEJFQTc3NTAyRUJBQTRGRgA="}]}
+[2025-03-27 16:44:18] INFO: Formateando número de teléfono: '+5491140623597'
+[2025-03-27 16:44:18] INFO: Después de eliminar caracteres no numéricos: '+5491140623597'
+[2025-03-27 16:44:18] INFO: Después de eliminar + inicial: '5491140623597'
+[2025-03-27 16:44:18] INFO: Número final formateado: '5491140623597'
+[2025-03-27 16:44:18] INFO: Enviando mensaje de bienvenida a técnico: Michel (ID: 8) - Teléfono formateado: 5491140623597
+[2025-03-27 16:44:18] INFO: Datos de la solicitud: {
+    "messaging_product": "whatsapp",
+    "recipient_type": "individual",
+    "to": "5491140623597",
+    "type": "text",
+    "text": {
+        "body": "\u00a1Hola Michel! Bienvenido\/a al sistema de gesti\u00f3n de tickets. \ud83d\udc4b\n\nEste es el n\u00famero oficial para notificaciones de tickets. Por favor, *responde a este mensaje* con un OK para activar las notificaciones.\n\nRecibir\u00e1s alertas en este n\u00famero cuando se te asigne un nuevo ticket. \ud83d\udd14\n\nGracias por tu colaboraci\u00f3n."
+    }
+}
+[2025-03-27 16:44:18] INFO: URL de la API: https://graph.facebook.com/v17.0/345032388695817/messages
+[2025-03-27 16:44:18] INFO: Información detallada de cURL:
+*   Trying [2a03:2880:f010:17:face:b00c:0:2]:443...
+* Connected to graph.facebook.com (2a03:2880:f010:17:face:b00c:0:2) port 443
+* ALPN: curl offers h2,http/1.1
+* SSL connection using TLSv1.3 / TLS_CHACHA20_POLY1305_SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: C=US; ST=California; L=Menlo Park; O=Meta Platforms, Inc.; CN=*.facebook.com
+*  start date: Jan  3 00:00:00 2025 GMT
+*  expire date: Apr  3 23:59:59 2025 GMT
+*  subjectAltName: host "graph.facebook.com" matched cert's "*.facebook.com"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA
+*  SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://graph.facebook.com/v17.0/345032388695817/messages
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: graph.facebook.com]
+* [HTTP/2] [1] [:path: /v17.0/345032388695817/messages]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [authorization: Bearer EAAajWSmtP1UBO0oyVHgwg2SHB2kgrBwLNn2Hxke5HZA4ZCocqFLvSeZA1FaYilrcS1vGdQa594z6TOhrcS4lUnB8QL2fy68pAWvAu8r4JhxzZBoiTKIACCHwpplRzjnvHO2RAU4uKoP2WKUvSVRqs6dctkipqUNhqXZBs2l8P2iHTZCcTv9kS2owsqyp2IGiskoQZDZD]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 479]
+> POST /v17.0/345032388695817/messages HTTP/2
+Host: graph.facebook.com
+Accept: */*
+Authorization: Bearer EAAajWSmtP1UBO0oyVHgwg2SHB2kgrBwLNn2Hxke5HZA4ZCocqFLvSeZA1FaYilrcS1vGdQa594z6TOhrcS4lUnB8QL2fy68pAWvAu8r4JhxzZBoiTKIACCHwpplRzjnvHO2RAU4uKoP2WKUvSVRqs6dctkipqUNhqXZBs2l8P2iHTZCcTv9kS2owsqyp2IGiskoQZDZD
+Content-Type: application/json
+Content-Length: 479
+
+< HTTP/2 200 
+< content-type: application/json; charset=UTF-8
+< vary: Origin
+< x-ad-api-version-warning: The call has been auto-upgraded to v20.0 as v17.0 has been deprecated.
+< x-business-use-case-usage: {"247414851788542":[{"type":"whatsapp","call_count":1,"total_cputime":1,"total_time":1,"estimated_time_to_regain_access":0}]}
+< access-control-allow-origin: *
+< facebook-api-version: v20.0
+< strict-transport-security: max-age=15552000; preload
+< pragma: no-cache
+< cache-control: private, no-cache, no-store, must-revalidate
+< expires: Sat, 01 Jan 2000 00:00:00 GMT
+< x-fb-request-id: AVWheVZFlzht2OQ5tHBaYir
+< x-fb-trace-id: CGWRklxrQH5
+< x-fb-rev: 1021320592
+< x-fb-debug: K2g7xEWckq5j+t80lxqzGs+5t17cvObsZ6gn+5eGF4fzxROa1m3tE9Mv4pWlRhJUkj3EB0STQociVEDIwZ7Muw==
+< content-length: 180
+< date: Thu, 27 Mar 2025 19:44:17 GMT
+< x-fb-connection-quality: EXCELLENT; q=0.9, rtt=3, rtx=0, c=10, mss=1392, tbw=3615, tp=-1, tpl=-1, uplat=551, ullat=0
+< alt-svc: h3=":443"; ma=86400
+< 
+* Connection #0 to host graph.facebook.com left intact
+[2025-03-27 16:44:18] INFO: Mensaje de bienvenida enviado correctamente a: 5491140623597
+[2025-03-27 16:44:18] INFO: Respuesta: {"messaging_product":"whatsapp","contacts":[{"input":"5491140623597","wa_id":"5491140623597"}],"messages":[{"id":"wamid.HBgNNTQ5MTE0MDYyMzU5NxUCABEYEjFCNTM4QTJCQzQyMzA2RDNFOAA="}]}
+[2025-03-27 16:45:32] INFO: Formateando número de teléfono: '+5491126317946'
+[2025-03-27 16:45:32] INFO: Después de eliminar caracteres no numéricos: '+5491126317946'
+[2025-03-27 16:45:32] INFO: Después de eliminar + inicial: '5491126317946'
+[2025-03-27 16:45:32] INFO: Número final formateado: '5491126317946'
+[2025-03-27 16:45:32] INFO: Enviando mensaje de bienvenida a técnico: Santiago Habib (ID: 7) - Teléfono formateado: 5491126317946
+[2025-03-27 16:45:32] INFO: Datos de la solicitud: {
+    "messaging_product": "whatsapp",
+    "recipient_type": "individual",
+    "to": "5491126317946",
+    "type": "text",
+    "text": {
+        "body": "\u00a1Hola Santiago Habib! Bienvenido\/a al sistema de gesti\u00f3n de tickets. \ud83d\udc4b\n\nEste es el n\u00famero oficial para notificaciones de tickets. Por favor, *responde a este mensaje* con un OK para activar las notificaciones.\n\nRecibir\u00e1s alertas en este n\u00famero cuando se te asigne un nuevo ticket. \ud83d\udd14\n\nGracias por tu colaboraci\u00f3n."
+    }
+}
+[2025-03-27 16:45:32] INFO: URL de la API: https://graph.facebook.com/v17.0/345032388695817/messages
+[2025-03-27 16:45:33] INFO: Información detallada de cURL:
+*   Trying [2a03:2880:f010:17:face:b00c:0:2]:443...
+* Connected to graph.facebook.com (2a03:2880:f010:17:face:b00c:0:2) port 443
+* ALPN: curl offers h2,http/1.1
+* SSL connection using TLSv1.3 / TLS_CHACHA20_POLY1305_SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: C=US; ST=California; L=Menlo Park; O=Meta Platforms, Inc.; CN=*.facebook.com
+*  start date: Jan  3 00:00:00 2025 GMT
+*  expire date: Apr  3 23:59:59 2025 GMT
+*  subjectAltName: host "graph.facebook.com" matched cert's "*.facebook.com"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA
+*  SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://graph.facebook.com/v17.0/345032388695817/messages
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: graph.facebook.com]
+* [HTTP/2] [1] [:path: /v17.0/345032388695817/messages]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [authorization: Bearer EAAajWSmtP1UBO0oyVHgwg2SHB2kgrBwLNn2Hxke5HZA4ZCocqFLvSeZA1FaYilrcS1vGdQa594z6TOhrcS4lUnB8QL2fy68pAWvAu8r4JhxzZBoiTKIACCHwpplRzjnvHO2RAU4uKoP2WKUvSVRqs6dctkipqUNhqXZBs2l8P2iHTZCcTv9kS2owsqyp2IGiskoQZDZD]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 487]
+> POST /v17.0/345032388695817/messages HTTP/2
+Host: graph.facebook.com
+Accept: */*
+Authorization: Bearer EAAajWSmtP1UBO0oyVHgwg2SHB2kgrBwLNn2Hxke5HZA4ZCocqFLvSeZA1FaYilrcS1vGdQa594z6TOhrcS4lUnB8QL2fy68pAWvAu8r4JhxzZBoiTKIACCHwpplRzjnvHO2RAU4uKoP2WKUvSVRqs6dctkipqUNhqXZBs2l8P2iHTZCcTv9kS2owsqyp2IGiskoQZDZD
+Content-Type: application/json
+Content-Length: 487
+
+< HTTP/2 200 
+< content-type: application/json; charset=UTF-8
+< vary: Origin
+< x-ad-api-version-warning: The call has been auto-upgraded to v20.0 as v17.0 has been deprecated.
+< x-business-use-case-usage: {"247414851788542":[{"type":"whatsapp","call_count":1,"total_cputime":1,"total_time":1,"estimated_time_to_regain_access":0}]}
+< access-control-allow-origin: *
+< facebook-api-version: v20.0
+< strict-transport-security: max-age=15552000; preload
+< pragma: no-cache
+< cache-control: private, no-cache, no-store, must-revalidate
+< expires: Sat, 01 Jan 2000 00:00:00 GMT
+< x-fb-request-id: ACw7JkHllgmocad8L-APL8M
+< x-fb-trace-id: FEynWvPA1a+
+< x-fb-rev: 1021320592
+< x-fb-debug: xMlyYLPYMBei5LF2V/jKdFqDBkz8UxY1GHiSAj7gJbDCKIeKMd8cAcNYKkIjvz+Bzu9TrQGHJm0Zeefca5ioOQ==
+< content-length: 180
+< date: Thu, 27 Mar 2025 19:45:31 GMT
+< x-fb-connection-quality: EXCELLENT; q=0.9, rtt=11, rtx=0, c=10, mss=1392, tbw=3615, tp=-1, tpl=-1, uplat=580, ullat=0
+< alt-svc: h3=":443"; ma=86400
+< 
+* Connection #0 to host graph.facebook.com left intact
+[2025-03-27 16:45:33] INFO: Mensaje de bienvenida enviado correctamente a: 5491126317946
+[2025-03-27 16:45:33] INFO: Respuesta: {"messaging_product":"whatsapp","contacts":[{"input":"5491126317946","wa_id":"5491126317946"}],"messages":[{"id":"wamid.HBgNNTQ5MTEyNjMxNzk0NhUCABEYEjBCQUIwRjhDOUM4NDg5RjEwNQA="}]}

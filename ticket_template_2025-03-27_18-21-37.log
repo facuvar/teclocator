@@ -1,0 +1,4 @@
+[2025-03-27 14:21:37] Usando número de teléfono: 5491126317946
+[2025-03-27 14:21:37] Enviando solicitud...
+[2025-03-27 14:21:38] Código de respuesta HTTP: 404
+[2025-03-27 14:21:38] Respuesta completa: {"error":{"message":"(#132001) Template name does not exist in the translation","type":"OAuthException","code":132001,"error_data":{"messaging_product":"whatsapp","details":"template name (nuevo_ticket) does not exist in es"},"fbtrace_id":"Ady48BMwZdSc83U6zeww2Mf"}}
