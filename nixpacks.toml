@@ -8,7 +8,9 @@ nixPkgs = [
   "pkgs.php82Extensions.zip",
   "pkgs.php82Extensions.xml",
   "pkgs.php82Extensions.gd",
-  "pkgs.php82Extensions.mbstring"
+  "pkgs.php82Extensions.mbstring",
+  "pkgs.php82Extensions.curl",
+  "pkgs.php82Extensions.intl"
 ]
 
 [start]
