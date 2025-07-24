@@ -11,4 +11,4 @@ nixPkgs = [
 ]
 
 [start]
-cmd = "apache2-foreground" 
+cmd = "httpd -DFOREGROUND" 
