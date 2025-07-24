@@ -11,7 +11,4 @@ nixPkgs = [
   "pkgs.php82Extensions.mbstring",
   "pkgs.php82Extensions.curl",
   "pkgs.php82Extensions.intl"
-]
-
-[start]
-cmd = "httpd -DFOREGROUND" 
+] 
