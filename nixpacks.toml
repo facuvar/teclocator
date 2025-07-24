@@ -1,5 +1,8 @@
 # nixpacks.toml
 
+[providers]
+php = "8.2"
+
 [phases.setup]
 nixPkgs = ["pkgs.php82Extensions.pdo_mysql"]
 
