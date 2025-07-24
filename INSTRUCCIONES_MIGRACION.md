@@ -2,7 +2,7 @@
 
 Este documento contiene las instrucciones detalladas para migrar el sistema TecLocator a https://teclocate.ascensorescompany.com.
 
-## 1. Preparación del Servidor
+##### 1. Preparación del Servidor
 
 1. **Requisitos del servidor:**
    - PHP 7.4 o superior
