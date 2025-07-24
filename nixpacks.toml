@@ -7,7 +7,8 @@ nixPkgs = [
   "pkgs.php82Extensions.pdo_mysql",
   "pkgs.php82Extensions.zip",
   "pkgs.php82Extensions.xml",
-  "pkgs.php82Extensions.gd"
+  "pkgs.php82Extensions.gd",
+  "pkgs.php82Extensions.mbstring"
 ]
 
 [start]
