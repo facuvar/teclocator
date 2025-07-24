@@ -20,7 +20,15 @@ ini_set('display_errors', 1);
 define('BASE_PATH', dirname(__DIR__));
 define('INCLUDE_PATH', BASE_PATH . '/includes');
 define('TEMPLATE_PATH', BASE_PATH . '/templates');
-define('BASE_URL', 'https://teclocator.ascensorescompany.com/');
+
+// Determinar el protocolo (http o https)
+$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
+
+// Determinar el nombre del host
+$host = $_SERVER['HTTP_HOST'] ?? 'localhost';
+
+// Definir BASE_URL dinámicamente
+define('BASE_URL', $protocol . $host . '/');
 
 // Load required files
 require_once INCLUDE_PATH . '/Database.php';
