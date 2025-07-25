@@ -18,4 +18,11 @@ nixPkgs = [
   "pkgs.php82Extensions.mbstring",
   "pkgs.php82Extensions.curl",
   "pkgs.php82Extensions.intl"
+]
+
+[phases.setup.cmds]
+cmds = [
+  "mkdir -p logs",
+  "touch logs/debug.log",
+  "chmod -R 777 logs"
 ] 
