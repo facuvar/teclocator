@@ -20,7 +20,7 @@ nixPkgs = [
   "pkgs.php82Extensions.intl"
 ]
 
-[phases.setup.cmds]
+[phases.build]
 cmds = [
   "mkdir -p logs",
   "touch logs/debug.log",
