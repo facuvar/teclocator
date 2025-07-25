@@ -2,6 +2,9 @@
 
 [phases.setup]
 nixPkgs = [
+  # Paquete principal de PHP que provee php-fpm
+  "pkgs.php82",
+
   # Dependencias del entorno por defecto de Railway
   "pkgs.nodejs_18",
   "pkgs.nginx",
