@@ -1,0 +1,177 @@
+[27-Mar-2025 17:59:58 America/Argentina/Buenos_Aires] Datos recibidos en start_visit.php: Array
+(
+    [ticket_id] => 18
+    [start_notes] => nada
+    [latitude] => -34.4702398
+    [longitude] => -58.5105106
+    [client_latitude] => -34.46972626
+    [client_longitude] => -58.51080289
+    [client_distance] => 63.07704440327705
+)
+
+[27-Mar-2025 18:00:16 America/Argentina/Buenos_Aires] Datos recibidos en end_visit.php: Array
+(
+    [visit_id] => 15
+    [completion_status] => failure
+    [comments] => 
+    [failure_reason] => no se pudio
+    [latitude] => -34.4702398
+    [longitude] => -58.5105106
+    [client_latitude] => -34.46972626
+    [client_longitude] => -58.51080289
+    [client_distance] => 63.07704440327705
+)
+
+[28-Mar-2025 09:26:30 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: db in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:26:30 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:26:52 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: db in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:26:52 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:31:38 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: db in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:31:38 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:31:49 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: db in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:31:49 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:32:05 America/Argentina/Buenos_Aires] Datos recibidos en start_visit.php: Array
+(
+    [ticket_id] => 21
+    [start_notes] => 
+    [latitude] => -34.470231
+    [longitude] => -58.5105176
+    [client_latitude] => -34.46972626
+    [client_longitude] => -58.51080289
+    [client_distance] => 61.918834534821556
+)
+
+[28-Mar-2025 09:32:57 America/Argentina/Buenos_Aires] Datos recibidos en end_visit.php: Array
+(
+    [visit_id] => 16
+    [completion_status] => success
+    [comments] => Todo ok
+    [failure_reason] => 
+    [latitude] => -34.4702057
+    [longitude] => -58.5105194
+    [client_latitude] => NaN
+    [client_longitude] => NaN
+    [client_distance] => 59.308264382804566
+)
+
+[28-Mar-2025 09:33:48 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: db in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:33:48 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:33:57 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: db in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:33:57 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:34:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: db in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:34:08 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:34:16 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: db in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:34:16 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:35:04 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: db in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:35:04 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:36:54 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: db in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:36:54 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:36:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: db in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:36:56 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:42:49 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: db in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:42:49 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:42:53 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: db in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:42:53 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:43:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: db in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:43:11 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:43:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: db in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:43:11 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:43:28 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: db in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:43:28 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:44:03 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: db in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:44:03 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:44:03 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: db in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:44:03 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:50:37 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: db in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 09:50:37 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 39
+[28-Mar-2025 10:02:10 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: db in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 43
+[28-Mar-2025 10:02:10 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 43
+[28-Mar-2025 10:02:10 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: db in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 43
+[28-Mar-2025 10:02:10 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/qekchmwoipik/public_html/teclocator/api/get_technician_tickets.php on line 43
+[03-Apr-2025 10:20:25 America/Argentina/Buenos_Aires] Datos recibidos en start_visit.php: Array
+(
+    [ticket_id] => 26
+    [start_notes] => Ya llegue
+    [latitude] => -34.521819
+    [longitude] => -58.5257582
+    [client_latitude] => -34.52175583
+    [client_longitude] => -58.52591628
+    [client_distance] => 16.095979018238555
+)
+
+[03-Apr-2025 10:21:56 America/Argentina/Buenos_Aires] Datos recibidos en end_visit.php: Array
+(
+    [visit_id] => 17
+    [completion_status] => success
+    [comments] => Arregle todo
+    [failure_reason] => 
+    [latitude] => -34.5218276
+    [longitude] => -58.5257566
+    [client_latitude] => -34.52175583
+    [client_longitude] => -58.52591628
+    [client_distance] => 16.66422419882419
+)
+

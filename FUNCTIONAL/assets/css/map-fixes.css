@@ -1,0 +1,27 @@
+/* Correcciones para los marcadores de Leaflet */
+.leaflet-marker-icon {
+    visibility: visible !important;
+    opacity: 1 !important;
+    z-index: 1000 !important;
+}
+
+.map-container {
+    height: 300px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+/* Asegurar que los controles del mapa sean visibles */
+.leaflet-control-container {
+    visibility: visible !important;
+    opacity: 1 !important;
+    z-index: 1000 !important;
+}
+
+/* Asegurar que el popup sea visible */
+.leaflet-popup {
+    visibility: visible !important;
+    opacity: 1 !important;
+    z-index: 1001 !important;
+}
