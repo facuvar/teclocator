@@ -1,4 +1,9 @@
 <?php
+// -- INICIO: REGISTRO DE DIAGNÓSTICO --
+$logFile = dirname(__DIR__) . '/logs/debug.log';
+file_put_contents($logFile, "[OK] init.php cargado.\n", FILE_APPEND);
+// -- FIN: REGISTRO DE DIAGNÓSTICO --
+
 /**
  * Initialization file
  * Include this file at the beginning of every page
