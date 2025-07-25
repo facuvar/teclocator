@@ -1,6 +1,6 @@
 {
     "require": {
-        "phpoffice/phpspreadsheet": "^1.18",
+        "phpoffice/phpspreadsheet": "*",
         "php": "^8.2"
     },
     "config": {
