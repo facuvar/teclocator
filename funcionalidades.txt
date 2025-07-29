@@ -1,0 +1,78 @@
+# Funcionalidades del Sistema de Gestión de Visitas
+
+Este documento resume las funcionalidades clave del sistema, categorizadas por rol de usuario y componentes principales.
+
+## Módulos Principales
+
+### 1. Autenticación y Perfiles
+- **Inicio de Sesión:** Sistema de inicio de sesión unificado para administradores y técnicos con correos electrónicos y contraseñas únicos.
+- **Gestión de Perfiles:** Los usuarios pueden ver y actualizar la información de su perfil, incluido el nombre, el correo electrónico y el teléfono.
+- **Cambio de Contraseña:** Los usuarios pueden cambiar sus contraseñas de forma segura.
+
+### 2. Panel de Administración (Rol: Administrador)
+- **Dashboard:** Proporciona una visión general de las operaciones, mostrando estadísticas clave.
+- **Gestión de Técnicos:**
+  - Crear, ver, editar y eliminar perfiles de técnicos.
+  - Asignar zonas a los técnicos.
+- **Gestión de Clientes:**
+  - Crear, ver, editar y eliminar perfiles de clientes.
+  - Importar listas de clientes desde archivos CSV.
+- **Gestión de Tickets:**
+  - Crear, ver, asignar y dar seguimiento a los tickets de servicio.
+  - Ver el historial completo de tickets.
+- **Gestión de Visitas:**
+  - Monitorear visitas activas y completadas.
+  - Ver detalles de cada visita.
+- **Solicitudes de Servicio:**
+  - Ver y gestionar las solicitudes de servicio enviadas a través del formulario público.
+- **Depuración de WhatsApp:** Herramientas para depurar y probar las notificaciones de WhatsApp.
+
+### 3. Panel de Técnicos (Rol: Técnico)
+- **Dashboard:** Muestra un resumen de los tickets asignados, las visitas activas y otra información relevante.
+- **Mis Tickets:**
+  - Ver una lista de todos los tickets asignados.
+  - Ver los detalles de cada ticket.
+- **Gestión de Visitas:**
+  - **Iniciar Visita:** Marcar el inicio de una visita, posiblemente escaneando un código QR en la ubicación del cliente.
+  - **Finalizar Visita:** Marcar la finalización de una visita, registrando notas y observaciones.
+  - **Visita Activa:** Ver detalles de la visita actualmente en curso.
+  - **Visitas Completadas:** Ver un historial de todas las visitas completadas.
+- **Escanear QR:** Funcionalidad para escanear códigos QR e iniciar visitas.
+
+### 4. Portal Público
+- **Formulario de Solicitud de Servicio:** Un formulario web público para que los clientes envíen solicitudes de servicio técnico para diferentes tipos de problemas (por ejemplo, persona encerrada, ascensor fuera de servicio).
+
+### 5. API (para la aplicación del técnico)
+- Proporciona puntos de conexión para que las aplicaciones móviles o de terceros interactúen con el sistema.
+- **Puntos de Conexión:**
+  - `get_technician_tickets.php`: Obtiene la lista de tickets de un técnico.
+  - `start_visit.php`: Inicia una nueva visita.
+  - `end_visit.php`: Finaliza una visita.
+  - `get_visit.php`: Obtiene los detalles de una visita específica.
+  - `get_active_visit.php`: Obtiene la visita activa del técnico.
+  - `check_active_visit.php`: Comprueba si hay una visita activa.
+  - `get_ticket.php`: Obtiene los detalles de un ticket específico.
+
+## Componentes Centrales
+
+### 1. Notificaciones de WhatsApp
+- El sistema está integrado con WhatsApp para enviar notificaciones automáticas.
+- **Tipos de Notificación:**
+  - Notificaciones de nuevos tickets a los técnicos.
+  - Actualizaciones del estado de los tickets a los clientes (potencialmente).
+  - Alertas y recordatorios.
+
+### 2. Base de Datos
+- **Esquema:** Incluye tablas para usuarios (administradores y técnicos), clientes, tickets, visitas, solicitudes de servicio y otras configuraciones.
+- **Scripts:** Proporciona scripts para crear, actualizar y gestionar la estructura y los datos de la base de datos.
+
+### 3. Configuración
+- Archivos de configuración para las credenciales de la base de datos y la API de WhatsApp.
+- Configuración de la zona horaria.
+
+### 4. Scripts y Herramientas
+- Varios scripts para tareas de mantenimiento y depuración, como:
+  - Comprobación del estado de la base de datos.
+  - Restablecimiento de datos.
+  - Actualización de la estructura de la base de datos.
+  - Pruebas de la integración de WhatsApp. 

@@ -1,0 +1,23 @@
+# nixpacks.toml
+
+[providers]
+php = "7.4"
+
+[phases.setup]
+nixPkgs = [
+    "pkgs.php74",
+    "pkgs.php74Packages.composer",
+    "pkgs.php74Extensions.pdo_mysql",
+    "pkgs.php74Extensions.zip",
+    "pkgs.php74Extensions.xml",
+    "pkgs.php74Extensions.gd",
+    "pkgs.php74Extensions.mbstring",
+    "pkgs.php74Extensions.curl",
+    "pkgs.php74Extensions.intl"
+]
+
+[phases.build]
+cmds = ["composer install --no-dev"]
+
+[start]
+cmd = "php-fpm -y /assets/php-fpm.conf & nginx -c /assets/nginx.conf"
