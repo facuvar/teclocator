@@ -16,8 +16,11 @@ nixPkgs = [
     "pkgs.php74Extensions.intl"
 ]
 
+# Dejamos que Nixpacks maneje el build y el start por defecto.
+# Solo nos aseguramos de que el directorio de logs exista.
 [phases.build]
-cmds = ["composer install --no-dev"]
-
-[start]
-cmd = "php-fpm -y /assets/php-fpm.conf & nginx -c /assets/nginx.conf"
+cmds = [
+    "composer install --no-dev --ignore-platform-reqs",
+    "mkdir -p FUNCTIONAL/logs",
+    "chmod -R 777 FUNCTIONAL/logs"
+]
